@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: : 20px;
+  background: #FFF7FF;
+}
+
+.todo {
+  width: 100%;
+  max-width: 25rem;
+  margin: 0 auto;
+  padding: 20px;
+  background: #FFF border-radius: 13px;
+  box-sizing: border-box;
+}
+
+.todo h1 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.todo-form {
+  margin: 13px 0;
+  padding-bottom: 20px;
+  width: 100%;
+  border-bottom: 1px solid #F5F5F5;
+}
+
+.todo-list {
+  padding: 0;
+  margin: 20px 0;
+}
+
+.todo-item {
+  list-style: none;
+  line-height: 28px;
+  word-wrap: break-word;
+}
+
+.todo-item input[type=checkbox] {
+  margin-right: 9px;
+}
+
+.todo-item botton {
+  margin-left: 9px;
+  line-height: 16px;
+}
